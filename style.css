@@ -1,0 +1,110 @@
+body {
+    background-image: url(images/geordanna-cordero.jpg);
+    background-size: cover;
+    color: #180038;
+    text-align: right;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+    padding-top: 30px;
+    margin-top: 180px;
+    margin-bottom: 30px;
+    
+}
+
+p {
+    font-size: 30px;
+    opacity: 0.8;
+    font-weight: 600;
+    
+    padding-left: 800px;
+    padding-right: 150px;
+}
+
+span{
+    color: white;
+}
+
+ul {
+    list-style: none;
+    margin-top: 40px;
+    
+    margin-left: 80px;
+    margin-right: 132px;
+} 
+
+li {
+    display: inline-block;
+    
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25;
+    padding: 20px; 
+    
+} 
+
+.firstitem:hover {
+
+    opacity: 0.6;
+}
+
+
+.button {
+    text-decoration: none;
+    background-color: #0daced ;
+    color: white;
+    padding: 10px 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    opacity: 0.8;
+
+}
+
+.linep {
+    color: white;
+    font-size: 180px;
+    font-weight: 200;
+    margin: -20px;
+    opacity: 0.6;
+    margin-top: -250px;
+    margin-right: -40px;
+}
+
+.logo {
+    margin-left: 90px; 
+    margin-top: 80px;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+
+    .logo {
+        margin-left: 40px; 
+        margin-top: 0px;
+
+    }
+    p {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    ul {
+        text-align: right;
+        padding-right: 10px;
+        margin-right: 0px;
+    }
+    .firstitem {
+        padding-right: 0px;
+        margin-right: 0px;
+    } 
+}
