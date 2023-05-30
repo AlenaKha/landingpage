@@ -27,7 +27,7 @@ function myFunction() {
     
     }
         else { document.querySelector('.thirdparagraph').innerHTML =
-        "Are you sure, that " + newcolor.toLowerCase() + " is a color?"  }
+        "Are you sure that " + newcolor.toLowerCase() + " is a color?"  }
 
 };
 
